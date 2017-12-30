@@ -1,0 +1,17 @@
+public class port{
+  
+  public static void main(String[] args){
+    portIsOpen("65.96.83.121", 2020, 200);
+    
+  }
+
+  public static boolean portIsOpen(String ip, int port, int timeout) {
+        try {
+            Socket socket = new Socket();
+            socket.connect(new InetSocketAddress(ip, port), timeout);
+            socket.close();
+            return true;
+        } catch (Exception ex) {
+            return false;
+        }
+    }

@@ -1,0 +1,10 @@
+public class calcs{
+  public static void main(String[] args){
+    int start = currentTimeMillis();
+    int end = currentTimeMillis();
+    
+    
+    
+  }
+  
+  

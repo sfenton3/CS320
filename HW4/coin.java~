@@ -1,0 +1,19 @@
+import java.util.Random;
+
+public class coin{
+  public static void main(String[] args){
+    int HEADS;
+    int TAILS;
+    
+    
+    
+  }
+  
+  public static int[] flip(int flips){
+    
+    
+    
+    
+  }
+  
+}
